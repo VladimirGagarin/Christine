@@ -532,11 +532,13 @@ main{
         letter-spacing: 2px;
         padding: 15px;
         background-color: #EB0CD8;
+        margin-bottom: 50px;
     }
 
     .controls-intros {
         flex-direction: column;
         gap: 10px;
+        margin-bottom: 50px;
     }
 
     .controls-intros button {
@@ -713,6 +715,9 @@ section{
 
 /* Media query for 768px and below (tablet/mobile screens) */
 @media (max-width: 800px) {
+    .image-container{
+        margin-top: 20px;
+    }
     .image-container ul {
       flex-direction: column; /* Stack the cards vertically */
       gap: 15px; /* Adjust gap between items */
