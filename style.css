@@ -527,12 +527,18 @@ main{
 
     .message-div {
         width: 99%;
-        height: auto;
+        height: 40vh;
+        overflow-y: auto;
         font-size: 24px;
         letter-spacing: 2px;
         padding: 15px;
         background-color: #EB0CD8;
         margin-bottom: 50px;
+        scrollbar-width: none;
+    }
+
+    .message-div::-webkit-scrollbar{
+        display: none;
     }
 
     .controls-intros {
